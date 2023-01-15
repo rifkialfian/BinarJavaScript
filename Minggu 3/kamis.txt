@@ -1,0 +1,29 @@
+include menghasilkan true or false
+indexOf menghasilkan angka
+
+filter buat searching / kondisi
+map untuk ngemapping
+
+row function = function yang gapakai nama
+
+Dengan menggunakan asynchronous, Sabrina bisa melayani dua customer sekaligus tanpa harus menunggu pesanan customer pertama selesai disiapkan.
+Sehingga akan lebih banyak customer yang dapat terlayani dalam waktu bersamaan. Penyampaian informasi ke dapur dan proses menyiapkan pesanan juga jadi lebih efisien.
+
+sincronus harus satu satu
+
+time out harus
+set interval dlm waktu tertentu keluar terus terusan dalam waktu tsb
+
+JUMAT
+
+callback intinya menjalankan fungsi didalam fungsi
+
+Promise intinya mengembalikan resolve jika benar dan reject jika salah, gunanya untuk konsumsi data atau 
+untuk mengetahui datanya benar apa tidak dan kerjanya seperti asinkronis
+
+promis lebih tepatnya kumpulan pekerjaan asingkronus untuk mengembalikan resolve jika benar dan reject jika salah
+promis untuk yg di belakang layar
+
+staycatch untuk singkronus bisa asingkronus bisa
+
+async/await itu supaya pekerjaan asingkronus itu selesai dulu baru bisa lanjut ke baris selanjutnya

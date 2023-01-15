@@ -15,14 +15,15 @@
                 display: block;
                 font-size: 1rem;
                 font-family: sans-serif;
+                /* width: 400px; */
             }
             
             p:nth-child(1), p:nth-child(3) {
-                float: left;
+                text-align: left;
             }
 
             p:nth-child(2){
-                float: right;
+                text-align: right;
             }
 
             img{
@@ -40,50 +41,55 @@
             }
 
             .paragraph-container{
-                display: inline;
-                width: 400px;
-                
+                display: inline;           
+
             }
 
-            /* .grid-container2{
-                display: grid;
-                column-gap: 100px;
-                row-gap: 50px;
-                grid-template-columns: auto auto;
-            } */
+            .footer{
+                display: block;
+                text-align: center;
+                width: 100%;
+                position: fixed;
+                bottom: 0;
+                right: 0;
+                background-color: blue;
+            }
 
-            /* @media only screen (max-width: 600px;){
+            @media only screen and (max-width: 600px){
                 .grid-container{
-                    display: flex;
-                    flex-direction: column;
+                    display: inline;
+                    /* flex-direction: column; */
                 }
+
+                p:nth-child(2), p:nth-child(3){
+                    display: none;
+                }
+
                 .footer{
                     background-color: red;
                 }
-            } */
+            }
 
         </style>
     </head>
 
     <body>
-        <h1>News Update</h1>
+        <h1>News Update 123</h1>
         <div class="grid-container">
             <img src="sambo.jpg" alt=""> 
             <img src="sambo.jpg" alt=""> 
             <img src="sambo.jpg" alt=""> 
         </div>
 
-        <div class="paragraph-container">
+        <div>
             <p>
                 sambo adalah seorang perwira menengah Polri yang sejak 20 April 2016 menjabat Sebagai Kasubdit IV Dittipidum Bareskrim Polri. Ferdy, lulusan Akpol 1994 ini berpengalaman dalam bidang reserse.
             </p>
-        </div>
-        <div class="paragraph-container">
+        
             <p>
                 IKN 2024 adalah singkatan dari Ibu Kota Negara baru, Nusantara. Istilah IKN digunakan karena lebih singkat dan mudah untuk disebutkan. Istilah IKN telah banyak digunakan dalam pembahasan mengenai ibu kota negara yang baru, mulai dari perencanaan, eksekusi pembangunan, hingga Rancangan Undang-Undangan Ibu Kota Negara (RUU IKN) sebagai payung hukum pembangunan IKN.
             </p>
-        </div>
-        <div class="paragraph-container">
+        
             <p>
                 3 Periode Wacana tiga periode memang bukanlah hal baru. Sebelumnya, wacana itu beberapa kali bergulir di ranah publik. Usulan pertama kali bergulir bersamaan dengan wacana amandemen UUD 1945 pada 2019. Kala itu ada anggota DPR yang disebut mengusulkan perubahan masa jabatan presiden.
             </p>
@@ -91,8 +97,8 @@
         
     </body>
 
-    <footer>
-
-    </footer>
+    <div class="footer">
+        Created by @rifki
+    </div>
 
 </html>
